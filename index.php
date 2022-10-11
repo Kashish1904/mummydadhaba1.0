@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="p-5"><img class="img-thumbnail img-fluid" src="<?= $category[banner]; ?>" height="1000px" width="500px"></div>
+                    <div class="p-5"><img class="img-thumbnail img-fluid" alt="<?= $category[name]; ?>" src="<?= $category[banner]; ?>" height="1000px" width="500px"></div>
                 </div>
                 <div class="col-lg-6 order-lg-<?=($category[id]%2+1);?>">
                     <div class="p-5">
