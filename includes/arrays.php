@@ -55,8 +55,8 @@
         "Desserts" => array(
             "name" => "Desserts",
             "description" => "\"Kuch meetha ho Jaye\"",
-            "banner" => "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2018/09/dessert-main-image-molten-cake.jpg",
-            "background" => "https://www.kiaofcoatesville.com/wp-content/uploads/2019/04/ice-cream-banner.jpg",
+            "banner" => "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg",
+            "background" => "https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "icon" => "media/desserts.ico",
             "id" => 4,
             "dish" => array(
