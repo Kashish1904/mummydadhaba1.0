@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url('https://m2.getsitecontrol.com/gallery/stickers/humans/81-376c4585a2e0c8ac2337ab5b9d5b395b.svg') no-repeat center;
+    background-size: cover;
+    filter: blur(50px);
+    z-index: -1;
+}
+
+.contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.left {
+    background: url('https://m2.getsitecontrol.com/gallery/stickers/humans/81-376c4585a2e0c8ac2337ab5b9d5b395b.svg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+    border-right: 2px solid #ffff00;
+}
+
+.right {
+    padding: 75px 50px;
+}
+
+h1 {
+    position: relative;
+    padding: 0 0 13px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50%;
+    border-radius: 2px;
+    background-color: #ffff00;
+}
+
+input:nth-child(1) {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 0;
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+}
+
+input.input-check {
+    width: 8%;
+}
+
+.field span {
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffff00;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+@media screen and (max-width: 880px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+    }
+    .left {
+        height: 200px;
+    }
+}

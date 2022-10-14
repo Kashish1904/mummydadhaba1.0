@@ -1,7 +1,7 @@
 <?php
     $icon = "//media.getsitecontrol.com/prod2/images/3130/a582af5305e3fe719d93fe8c10ad1210_157640964.svg";
     $title = "Thank You!";
-    include("includes/header.php");s
+    include("includes/header.php");
 ?>
     <link rel="stylesheet" href="css/thanks.css">
     </head>
